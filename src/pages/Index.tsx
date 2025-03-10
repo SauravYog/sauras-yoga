@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { motion } from 'framer-motion';
-import { ChevronRight, Sun, Moon, Heart, Wind, Lotus } from 'lucide-react';
+import { ChevronRight, Sun, Moon, Heart, Wind, Flower } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -339,13 +338,13 @@ const featuredYogaTypes = [
     title: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day and energize the body.",
     image: "public/lovable-uploads/2d257bb8-89da-46bd-b394-60e8bcc5778d.png",
-    icon: Lotus
+    icon: Flower
   },
   {
     title: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support.",
     image: "public/lovable-uploads/8f5891a7-dda1-48ef-b157-ba056ee39e07.png",
-    icon: Lotus
+    icon: Flower
   }
 ];
 
