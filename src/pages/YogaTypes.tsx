@@ -240,7 +240,7 @@ const featuredYogaTypes = [
   {
     name: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support. It offers a gentle, accessible practice for those with limited mobility or beginners seeking low-impact exercise.",
-    image: "public/lovable-uploads/8f5891a7-dda1-48ef-b157-ba056ee39e07.png",
+    image: "public/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png",
     benefits: "Accessibility, joint mobility, gentle stretching"
   },
   {
