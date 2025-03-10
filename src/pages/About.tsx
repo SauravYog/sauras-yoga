@@ -21,7 +21,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <img 
-              src="/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png" 
+              src="/lovable-uploads/8f5891a7-dda1-48ef-b157-ba056ee39e07.png" 
               alt="Kumar Saurav - Yoga Instructor" 
               className="rounded-lg shadow-lg w-full h-auto max-w-md mx-auto"
             />
