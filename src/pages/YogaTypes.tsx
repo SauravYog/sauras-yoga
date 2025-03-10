@@ -192,73 +192,73 @@ const featuredYogaTypes = [
   {
     name: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation. It lays the foundation for many modern styles by emphasizing balance, alignment, and mindfulness.",
-    image: "public/lovable-uploads/de0bf1a6-8272-4d24-a5ff-e05256787c42.png",
+    image: "public/lovable-uploads/yin-yoga.png",
     benefits: "Improved flexibility, stress reduction, better posture"
   },
   {
     name: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order. It synchronizes breath with movement to build strength, flexibility, and stamina.",
-    image: "public/lovable-uploads/a3b17b67-8fc0-4ef2-9f68-5632c20c981d.png",
+    image: "public/lovable-uploads/vinyasa-yoga.png",
     benefits: "Increased strength, improved focus, detoxification"
   },
   {
     name: "Power Yoga",
     description: "A vigorous, fitness-oriented approach derived from Ashtanga that challenges both the body and mind. This style focuses on building endurance, strength, and overall body conditioning through dynamic flows.",
-    image: "public/lovable-uploads/49c926fe-cecc-4f4f-a29a-16eea1500bd7.png",
+    image: "public/lovable-uploads/iyengar-yoga.png",
     benefits: "Strength building, calorie burning, mental fortitude"
   },
   {
     name: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences. It encourages mindfulness, flexibility, and a balanced, rhythmic practice that adapts to each session.",
-    image: "public/lovable-uploads/9aa8b024-53a2-4e1e-aee0-5a0d62fa46d5.png",
+    image: "public/lovable-uploads/ashtanga-yoga.png",
     benefits: "Cardiovascular health, meditative focus, adaptability"
   },
   {
     name: "Sivananda Yoga",
     description: "A classical approach integrating twelve basic poses, breathing exercises, relaxation, and meditation. It promotes holistic well-being by harmonizing the body, mind, and spirit through disciplined practice.",
-    image: "public/lovable-uploads/64696d7d-e35e-46df-8625-af33b19fcaea.png",
+    image: "public/lovable-uploads/aerial-yoga.png",
     benefits: "Holistic wellness, spiritual growth, stress relief"
   },
   {
     name: "Iyengar Yoga",
     description: "Emphasizes precise alignment and the use of props (such as blocks and straps) to support the body in each pose. It develops strength and flexibility while ensuring a safe practice that refines body awareness.",
-    image: "public/lovable-uploads/f0e56e39-c15f-46dc-a500-3758ea1b1bd1.png",
+    image: "public/lovable-uploads/insight-yoga.png",
     benefits: "Precise alignment, therapeutic applications, injury prevention"
   },
   {
     name: "Yin Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues. It fosters relaxation, deep stretching, and a meditative state, balancing more vigorous practices.",
-    image: "public/lovable-uploads/96b6d644-4e51-4ad7-aed1-3285514cb6e2.png",
+    image: "public/lovable-uploads/acro-yoga.png",
     benefits: "Deep tissue release, improved flexibility, stress reduction"
   },
   {
     name: "Insight Yoga",
     description: "Blends physical postures with mindfulness and meditation to cultivate inner awareness. It encourages a reflective practice that connects the body and mind for personal growth.",
-    image: "public/lovable-uploads/aaf3066b-fa49-433f-b14a-14693bb399f0.png",
+    image: "public/lovable-uploads/chair-yoga.png",
     benefits: "Mindfulness, emotional balance, inner awareness"
   },
   {
     name: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support. It offers a gentle, accessible practice for those with limited mobility or beginners seeking low-impact exercise.",
-    image: "public/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png",
+    image: "public/lovable-uploads/sun-salutation.png",
     benefits: "Accessibility, joint mobility, gentle stretching"
   },
   {
     name: "Aerial Yoga",
     description: "Uses a suspended hammock to support and deepen traditional yoga postures in the air. It offers a unique perspective on balance, flexibility, and core strength by reducing the impact of gravity.",
-    image: "public/lovable-uploads/12f103b8-70bf-4c24-9938-6f944809d547.png",
+    image: "public/lovable-uploads/sivananda-yoga.png",
     benefits: "Spinal decompression, core strength, playful practice"
   },
   {
     name: "Acro Yoga",
     description: "Combines yoga, acrobatics, and Thai massage in a partner-based practice. It emphasizes trust, collaboration, and physical challenge through dynamic, playful poses.",
-    image: "public/lovable-uploads/bb299f19-eb29-4104-9f40-d8a0dd88d7ba.png",
+    image: "public/lovable-uploads/hatha-yoga.png",
     benefits: "Trust building, partner connection, playful expression"
   },
   {
     name: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day. It energizes the body, improves circulation, and serves as a warm-up to prepare for deeper stretches.",
-    image: "public/lovable-uploads/2d257bb8-89da-46bd-b394-60e8bcc5778d.png",
+    image: "public/lovable-uploads/power-yoga.png",
     benefits: "Morning energizing, full-body warm up, breath synchronization"
   }
 ];
