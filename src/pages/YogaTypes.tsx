@@ -1,9 +1,10 @@
+
 import React, { useEffect, useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { motion } from 'framer-motion';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import { Info } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { ChevronDown } from 'lucide-react';
 
 const YogaTypes = () => {
   useEffect(() => {
@@ -126,20 +127,24 @@ const YogaTypes = () => {
                 transition={{ duration: 0.3, delay: index * 0.03 }}
                 className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all hover:-translate-y-1"
               >
-                <Tooltip>
-                  <TooltipTrigger asChild>
+                <Dialog>
+                  <DialogTrigger asChild>
                     <button 
-                      onClick={() => toggleYogaInfo(yoga.name)}
                       className="w-full text-left flex justify-between items-center"
                     >
                       <h3 className="text-lg font-medium text-gray-900">{yoga.name}</h3>
-                      <Info size={16} className="text-yoga-primary ml-2" />
+                      <ChevronDown size={16} className="text-yoga-primary ml-2" />
                     </button>
-                  </TooltipTrigger>
-                  <TooltipContent side="right" className="max-w-xs bg-white p-3 shadow-lg">
-                    <p className="text-sm">{yoga.description}</p>
-                  </TooltipContent>
-                </Tooltip>
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-md">
+                    <DialogHeader>
+                      <DialogTitle className="text-xl text-yoga-primary font-serif">{yoga.name}</DialogTitle>
+                    </DialogHeader>
+                    <div className="mt-2">
+                      <p className="text-gray-700">{yoga.description}</p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
               </motion.div>
             ))}
           </div>
@@ -320,163 +325,163 @@ const featuredYogaTypes = [
 const allYogaTypes = [
   {
     name: "Beginners Yoga",
-    description: "A gentle introduction to basic yoga postures and breathing techniques, perfect for those new to yoga practice."
+    description: "Ideal for those new to the practice, Beginners Yoga introduces basic poses and proper alignment in a gentle, welcoming setting. It builds a solid foundation, enhancing flexibility, balance, and mindfulness."
   },
   {
     name: "Ananda Yoga",
-    description: "Focuses on gentle postures designed to move the energy up to the brain and prepare the body for meditation."
+    description: "Ananda Yoga integrates gentle movements with deep relaxation and meditation for overall well-being. It encourages self-awareness and harmony between body and mind."
   },
   {
     name: "Hatha Yoga",
-    description: "Traditional approach focusing on physical postures (asanas) and breathing control (pranayama) to balance body and mind."
+    description: "Hatha Yoga emphasizes physical postures and breathing techniques to harmonize the body and mind. Its measured pace and focus on alignment make it perfect for cultivating balance and inner calm."
   },
   {
     name: "Ashtanga Yoga",
-    description: "A dynamic, physically demanding practice that follows a specific sequence of postures linked by breath."
+    description: "Ashtanga Yoga follows a fixed sequence of poses with breath-synchronized, dynamic movements. This vigorous practice builds strength, endurance, and flexibility through its structured flow."
   },
   {
     name: "Power Yoga",
-    description: "A vigorous, fitness-based approach that builds strength, flexibility and stamina through flowing postures."
+    description: "Power Yoga is a fitness-driven style that energizes the body with strength-focused, dynamic sequences. It provides a challenging workout that boosts physical power and mental focus."
   },
   {
     name: "Vinyasa Yoga",
-    description: "Synchronizes movement with breath in flowing sequences, with smooth transitions between postures."
+    description: "Vinyasa Yoga features fluid, continuous movements that connect breath with motion. This dynamic practice enhances flexibility, balance, and concentration through its flowing sequences."
   },
   {
     name: "Satyananda Yoga",
-    description: "Integrates traditional practices like asana, pranayama, and meditation with modern approaches to health and wellbeing."
+    description: "Satyananda Yoga blends asanas with meditation and relaxation techniques for inner transformation. It emphasizes holistic practices that nurture mental clarity, emotional balance, and physical well-being."
   },
   {
     name: "Pragya Yoga",
-    description: "A mindful approach focusing on developing self-awareness and conscious movement through postures."
+    description: "Pragya Yoga combines mindful movement with meditation to deepen self-awareness and inner insight. It encourages a balanced integration of mind, body, and spirit through gentle practice."
   },
   {
     name: "Shivananda Yoga",
-    description: "Structured around five principles: proper exercise, proper breathing, proper relaxation, proper diet, and positive thinking."
+    description: "Shivananda Yoga follows a classical approach with a set of traditional asanas, breathing exercises, and meditation. This practice aims to cultivate health, vitality, and inner peace through its well-rounded routine."
   },
   {
     name: "Atmananda Yoga",
-    description: "Emphasizes alignment and precise movement coordinated with breath awareness."
+    description: "Atmananda Yoga integrates gentle postures and mindful breathing to awaken inner joy and self-realization. It fosters a harmonious connection between body and spirit for overall well-being."
   },
   {
     name: "Iyengar Yoga",
-    description: "Focuses on precise alignment and the use of props to help students achieve proper form."
+    description: "Iyengar Yoga focuses on precise alignment and uses props to support detailed body awareness in each pose. It is renowned for improving posture and stability while being accessible to all levels."
   },
   {
     name: "Moon Series",
-    description: "A calming sequence that honors the cooling, reflective energy of the moon, focusing on gentle, introspective movements."
+    description: "The Moon Series features slow, graceful movements that emphasize relaxation and introspection. It mirrors the calming qualities of the moon, promoting balance and emotional serenity."
   },
   {
     name: "Sun Salutation",
-    description: "A sequence of postures performed in a flowing manner to create heat and energy in the body."
+    description: "Sun Salutation is a dynamic sequence of poses performed in a rhythmic, flowing manner. It energizes the body, improves circulation, and serves as an excellent warm-up for any practice."
   },
   {
     name: "Brick Yoga",
-    description: "Incorporates yoga blocks (bricks) to support proper alignment and deepen stretches in various postures."
+    description: "Brick Yoga incorporates yoga bricks to modify and deepen traditional poses safely. This practice offers additional support and creative variations for exploring new angles in your routine."
   },
   {
     name: "Basket Yoga",
-    description: "Uses basket-like props for support and to create resistance in certain postures, enhancing core stability."
+    description: "Basket Yoga uses a basket as a prop to facilitate unique stretches and adjustments in familiar poses. It adds a creative twist that enhances balance, flexibility, and core strength."
   },
   {
     name: "Danda Yoga",
-    description: "Uses a staff (danda) to aid in alignment and provide support in standing and seated postures."
+    description: "Danda Yoga employs a simple wooden stick as a prop to guide and support various postures. It enhances alignment and body awareness, making it suitable for both beginners and advanced practitioners."
   },
   {
     name: "Strap Yoga",
-    description: "Incorporates straps to help achieve proper alignment in postures, especially when flexibility is limited."
+    description: "Strap Yoga uses yoga straps to extend reach and deepen stretches in challenging poses. It promotes improved flexibility and alignment by offering extra support and resistance."
   },
   {
     name: "Tibetan Yoga",
-    description: "Ancient practices focused on energy channels and chakras, often including 'Five Tibetan Rites'."
+    description: "Tibetan Yoga integrates traditional Tibetan techniques with dynamic movements and breathwork. It emphasizes energy flow and mindfulness, drawing on ancient practices to enhance well-being."
   },
   {
     name: "Insight Yoga",
-    description: "Combines yoga, meditation, and Chinese meridian theory to address physical, energetic, and mental aspects."
+    description: "Insight Yoga combines physical postures with mindfulness meditation for deeper self-exploration. It fosters introspection and awareness, strengthening the connection between body and mind."
   },
   {
     name: "Sculpt Yoga",
-    description: "Combines yoga postures with weight training for increased strength and muscle definition."
+    description: "Sculpt Yoga blends yoga poses with strength training and cardio elements. This high-energy practice sculpts the body while improving flexibility, endurance, and overall fitness."
   },
   {
     name: "Wall Yoga",
-    description: "Uses a wall for support to achieve proper alignment and deepen stretches in various postures."
+    description: "Wall Yoga uses a wall as a prop to support and modify traditional postures for enhanced alignment. It offers a fresh perspective on familiar poses while improving balance and stability."
   },
   {
     name: "Hot Yoga",
-    description: "Practiced in a heated room to promote flexibility, detoxification, and cardiovascular challenge."
+    description: "Hot Yoga is practiced in a heated environment, which helps to loosen muscles and intensify stretches. The warmth promotes detoxification and deepens the overall practice through increased circulation."
   },
   {
     name: "Core Yoga",
-    description: "Focuses on strengthening the core muscles, including the abdomen, back, and pelvis."
+    description: "Core Yoga focuses on strengthening the abdominal and back muscles through targeted asanas. It enhances stability and balance while promoting better posture and overall physical fitness."
   },
   {
     name: "Yin Yang Yoga",
-    description: "Combines the slow-paced Yin style with more active Yang sequences for a balanced practice."
+    description: "Yin Yang Yoga merges the stillness of Yin with the dynamic flow of Yang practices. This balanced approach cultivates both deep relaxation and active energy for a comprehensive workout."
   },
   {
     name: "Rope Yoga",
-    description: "Uses wall-mounted ropes to support the body in various postures, enhancing alignment and decreasing strain."
+    description: "Rope Yoga incorporates ropes as props to introduce suspension elements into traditional poses. It adds an innovative challenge that boosts strength, balance, and flexibility."
   },
   {
     name: "Aerial Yoga",
-    description: "Performs yoga postures while suspended in a hammock, reducing pressure on joints and spine."
+    description: "Aerial Yoga uses hammocks or silks suspended from the ceiling to support various postures and inversions. It allows for deeper stretches, spinal decompression, and a playful exploration of movement."
   },
   {
     name: "Ladder Yoga",
-    description: "Uses a wall-mounted ladder for support and alignment, especially beneficial for inversions and backbends."
+    description: "Ladder Yoga introduces a ladder as a prop to challenge balance and extend traditional postures in creative ways. It encourages flexibility and strength while adding a fun, unconventional twist to your practice."
   },
   {
     name: "Chair Yoga",
-    description: "Adapts traditional yoga poses to be performed seated in or with the support of a chair, accessible for all mobility levels."
+    description: "Chair Yoga adapts traditional poses for practice while seated or using a chair for support. It offers an accessible and gentle routine, perfect for those with limited mobility or seeking a low-impact workout."
   },
   {
     name: "Mat Pilates",
-    description: "Floor exercises that emphasize core strength, proper alignment, and breathing control."
+    description: "Mat Pilates focuses on controlled movements and core strengthening exercises performed on a mat. It emphasizes posture, balance, and overall body conditioning, complementing traditional yoga practices."
   },
   {
     name: "Yoga for Back Bending",
-    description: "Focuses on postures that open the chest and stretch the spine backward, improving spinal mobility."
+    description: "Yoga for Back Bending centers on opening the chest and extending the spine through deep, expansive poses. It improves flexibility and posture while energizing the back muscles for greater vitality."
   },
   {
     name: "Yoga for Hip Opening",
-    description: "Targets the hip joints and surrounding muscles to release tension and increase range of motion."
+    description: "Yoga for Hip Opening targets the muscles surrounding the hips to increase flexibility and relieve tension. It promotes improved mobility and balance, easing tightness and fostering lower body relaxation."
   },
   {
     name: "Yoga for Flexibility",
-    description: "Emphasizes poses that enhance overall flexibility, with attention to safe alignment and gradual progression."
+    description: "Yoga for Flexibility focuses on stretching and lengthening muscles to enhance overall range of motion. It relieves tension and supports a balanced practice that builds both strength and suppleness."
   },
   {
     name: "Balancing Yoga",
-    description: "Focuses on postures that challenge and improve balance, enhancing focus and core stability."
+    description: "Balancing Yoga emphasizes stability through poses that require focused concentration and core strength. It sharpens body awareness and improves equilibrium, making it ideal for developing overall balance."
   },
   {
     name: "Detox Yoga",
-    description: "Incorporates twists, inversions, and other poses that stimulate circulation and support the body's natural detoxification."
+    description: "Detox Yoga incorporates poses and breathwork aimed at stimulating the body's natural detoxification processes. It supports digestion, boosts circulation, and encourages the elimination of toxins for renewed energy."
   },
   {
     name: "Animal Flow",
-    description: "Ground-based movement combining elements from yoga, gymnastics, and various movement disciplines."
+    description: "Animal Flow draws inspiration from natural animal movements to create dynamic, ground-based sequences. It enhances strength, flexibility, and coordination while adding a playful element to your workout."
   },
   {
     name: "Dance Yoga",
-    description: "Blends yoga poses with dance movements for a fluid, expressive practice that enhances creativity."
+    description: "Dance Yoga merges fluid dance movements with traditional yoga postures for a creative, rhythmic practice. It encourages self-expression, cardiovascular fitness, and a joyful connection between body and soul."
   },
   {
     name: "Acro Yoga",
-    description: "Partner practice combining yoga, acrobatics, and Thai massage for strength, trust, and playfulness."
+    description: "Acro Yoga combines yoga, acrobatics, and partner work for a dynamic, collaborative practice. It builds trust, strength, and flexibility while creating an engaging and fun challenge."
   },
   {
     name: "Partner Yoga",
-    description: "Performed with a partner who provides support, resistance, or assists in achieving deeper expressions of poses."
+    description: "Partner Yoga involves two people performing poses together to build mutual support and balance. It deepens connection, enhances communication, and fosters trust through shared practice."
   },
   {
     name: "Calorie Crusher",
-    description: "High-intensity sequence designed to maximize calorie burn while maintaining yoga principles of breath and mindfulness."
+    description: "Calorie Crusher is an energetic, yoga-inspired workout designed to elevate the heart rate and burn calories. It combines dynamic sequences with strength-building moves for an intense, metabolism-boosting routine."
   },
   {
     name: "Deep Stretch",
-    description: "Slow-paced practice with longer-held postures to release tension in muscles and connective tissues."
+    description: "Deep Stretch focuses on slowly elongating muscles and releasing tension with extended holds in each pose. It promotes relaxation, enhances flexibility, and serves as an ideal practice for recovery and stress relief."
   }
 ];
 
