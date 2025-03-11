@@ -10,7 +10,10 @@ const Index = () => {
     <Layout>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center hero-gradient">
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png')] bg-cover bg-center opacity-10"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{ backgroundImage: `url('/lovable-uploads/a3f1140e-2b68-416d-bc45-8b65ded8ffc8.png')` }}
+        ></div>
         <div className="container mx-auto px-4 md:px-6 pt-24 z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
