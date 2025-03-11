@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -227,9 +226,9 @@ const featuredYogaTypes = [
     benefits: "Precise alignment, therapeutic applications, injury prevention"
   },
   {
-    name: "Yin Yoga",
+    name: "Yin Yang Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues. It fosters relaxation, deep stretching, and a meditative state, balancing more vigorous practices.",
-    image: "public/lovable-uploads/96b6d644-4e51-4ad7-aed1-3285514cb6e2.png",
+    image: "public/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
     benefits: "Deep tissue release, improved flexibility, stress reduction"
   },
   {
@@ -271,7 +270,7 @@ const allYogaTypes = [
   "Shivananda Yoga", "Atmananda Yoga", "Iyengar Yoga", "Moon Series",
   "Sun Salutation", "Brick Yoga", "Basket Yoga", "Danda Yoga", 
   "Strap Yoga", "Tibetan Yoga", "Insight Yoga", "Sculpt Yoga", 
-  "Wall Yoga", "Hot Yoga", "Core Yoga", "Yin Yoga", 
+  "Wall Yoga", "Hot Yoga", "Core Yoga", "Yin Yang Yoga", 
   "Rope Yoga", "Aerial Yoga", "Ladder Yoga", "Chair Yoga", 
   "Mat Pilates", "Yoga for Back Bending", "Yoga for Hip Opening", 
   "Yoga for Flexibility", "Balancing Yoga", "Detox Yoga", 
