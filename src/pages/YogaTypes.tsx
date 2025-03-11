@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -247,7 +246,7 @@ const featuredYogaTypes = [
   {
     name: "Aerial Yoga",
     description: "Uses a suspended hammock to support and deepen traditional yoga postures in the air. It offers a unique perspective on balance, flexibility, and core strength by reducing the impact of gravity.",
-    image: "public/lovable-uploads/12f103b8-70bf-4c24-9938-6f944809d547.png",
+    image: "public/lovable-uploads/d281e111-53b7-4c9f-bf5d-50e2b0a9c31e.png",
     benefits: "Spinal decompression, core strength, playful practice"
   },
   {
