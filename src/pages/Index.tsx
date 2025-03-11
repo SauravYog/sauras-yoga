@@ -314,37 +314,37 @@ const featuredYogaTypes = [
   {
     title: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation for balanced mind and body.",
-    image: "public/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
+    image: "/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
     icon: Sun
   },
   {
     title: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order.",
-    image: "public/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
+    image: "/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
     icon: Wind
   },
   {
     title: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences.",
-    image: "public/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
+    image: "/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
     icon: Heart
   },
   {
     title: "Yin Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues.",
-    image: "public/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
+    image: "/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
     icon: Moon
   },
   {
     title: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day and energize the body.",
-    image: "public/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
+    image: "/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
     icon: Flower
   },
   {
     title: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support.",
-    image: "public/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
+    image: "/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
     icon: Flower
   }
 ];
