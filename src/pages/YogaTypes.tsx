@@ -70,12 +70,12 @@ const YogaTypes = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex flex-col md:flex-row gap-6 bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="md:w-2/5 relative overflow-hidden">
+                <div className="md:w-2/5 relative">
                   <div className="aspect-[4/3] w-full">
                     <img 
                       src={yoga.image} 
                       alt={yoga.name} 
-                      className="absolute inset-0 w-full h-full object-contain"
+                      className="absolute inset-0 w-full h-full object-cover"
                     />
                   </div>
                 </div>
