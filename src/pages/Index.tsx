@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -10,7 +11,7 @@ const Index = () => {
     <Layout>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center hero-gradient">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80')] bg-cover bg-center opacity-10"></div>
         <div className="container mx-auto px-4 md:px-6 pt-24 z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -73,7 +74,7 @@ const Index = () => {
               <div className="absolute -top-16 -left-16 w-32 h-32 bg-purple-100 rounded-full opacity-60 animate-float"></div>
               <div className="absolute -bottom-16 -right-16 w-32 h-32 bg-purple-100 rounded-full opacity-60 animate-float" style={{ animationDelay: "1s" }}></div>
               <img 
-                src="public/lovable-uploads/bb299f19-eb29-4104-9f40-d8a0dd88d7ba.png" 
+                src="https://images.unsplash.com/photo-1604781618900-433d54902e19?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" 
                 alt="Yoga pose" 
                 className="w-full h-auto rounded-lg shadow-2xl object-cover"
                 style={{ maxHeight: "80vh" }}
@@ -229,7 +230,7 @@ const Index = () => {
             >
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-yoga-primary rounded-lg"></div>
               <img 
-                src="public/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png" 
+                src="https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" 
                 alt="Kumar Saurav - Yoga Instructor" 
                 className="w-full rounded-lg shadow-lg relative z-10"
               />
@@ -313,37 +314,37 @@ const featuredYogaTypes = [
   {
     title: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation for balanced mind and body.",
-    image: "public/lovable-uploads/de0bf1a6-8272-4d24-a5ff-e05256787c42.png",
+    image: "https://images.unsplash.com/photo-1573590330099-d6c7355ec595?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Sun
   },
   {
     title: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order.",
-    image: "public/lovable-uploads/a3b17b67-8fc0-4ef2-9f68-5632c20c981d.png",
+    image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Wind
   },
   {
     title: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences.",
-    image: "public/lovable-uploads/9aa8b024-53a2-4e1e-aee0-5a0d62fa46d5.png",
+    image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Heart
   },
   {
     title: "Yin Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues.",
-    image: "public/lovable-uploads/96b6d644-4e51-4ad7-aed1-3285514cb6e2.png",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Moon
   },
   {
     title: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day and energize the body.",
-    image: "public/lovable-uploads/2d257bb8-89da-46bd-b394-60e8bcc5778d.png",
+    image: "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Flower
   },
   {
     title: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support.",
-    image: "public/lovable-uploads/8f5891a7-dda1-48ef-b157-ba056ee39e07.png",
+    image: "https://images.unsplash.com/photo-1620122830785-a18b43585b44?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3",
     icon: Flower
   }
 ];
