@@ -71,7 +71,7 @@ const YogaTypes = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex flex-col md:flex-row gap-6 bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="md:w-2/5">
+                <div className="md:w-2/5 flex items-center justify-center">
                   <img 
                     src={yoga.image} 
                     alt={yoga.name} 
