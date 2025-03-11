@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -240,7 +241,7 @@ const featuredYogaTypes = [
   {
     name: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support. It offers a gentle, accessible practice for those with limited mobility or beginners seeking low-impact exercise.",
-    image: "public/lovable-uploads/2befd39d-b400-45e1-98be-c925aed01f26.png",
+    image: "public/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
     benefits: "Accessibility, joint mobility, gentle stretching"
   },
   {
