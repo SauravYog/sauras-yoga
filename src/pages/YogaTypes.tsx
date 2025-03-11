@@ -239,84 +239,84 @@ const featuredYogaTypes = [
   {
     name: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation. It lays the foundation for many modern styles by emphasizing balance, alignment, and mindfulness.",
-    image: "public/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
+    image: "/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
     benefits: "Improved flexibility, stress reduction, better posture",
     focus: "Balance and proper alignment"
   },
   {
     name: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order. It synchronizes breath with movement to build strength, flexibility, and stamina.",
-    image: "public/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
+    image: "/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
     benefits: "Increased strength, improved focus, detoxification",
     focus: "Strength building and endurance"
   },
   {
     name: "Power Yoga",
     description: "A vigorous, fitness-oriented approach derived from Ashtanga that challenges both the body and mind. This style focuses on building endurance, strength, and overall body conditioning through dynamic flows.",
-    image: "public/lovable-uploads/b78cac0a-288a-45e6-a58e-efd0c2d85589.png",
+    image: "/lovable-uploads/b78cac0a-288a-45e6-a58e-efd0c2d85589.png",
     benefits: "Strength building, calorie burning, mental fortitude",
     focus: "Muscular development and cardiovascular fitness"
   },
   {
     name: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences. It encourages mindfulness, flexibility, and a balanced, rhythmic practice that adapts to each session.",
-    image: "public/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
+    image: "/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
     benefits: "Cardiovascular health, meditative focus, adaptability",
     focus: "Fluid movement and breath coordination"
   },
   {
     name: "Sivananda Yoga",
     description: "A classical approach integrating twelve basic poses, breathing exercises, relaxation, and meditation. It promotes holistic well-being by harmonizing the body, mind, and spirit through disciplined practice.",
-    image: "public/lovable-uploads/3e67e577-ff68-44b8-ae3d-9219a7915c70.png",
+    image: "/lovable-uploads/3e67e577-ff68-44b8-ae3d-9219a7915c70.png",
     benefits: "Holistic wellness, spiritual growth, stress relief",
     focus: "Overall wellness and balanced development"
   },
   {
     name: "Iyengar Yoga",
     description: "Emphasizes precise alignment and the use of props (such as blocks and straps) to support the body in each pose. It develops strength and flexibility while ensuring a safe practice that refines body awareness.",
-    image: "public/lovable-uploads/110f5166-417b-4610-8fad-4432af890844.png",
+    image: "/lovable-uploads/110f5166-417b-4610-8fad-4432af890844.png",
     benefits: "Precise alignment, therapeutic applications, injury prevention",
     focus: "Detailed alignment and structural integrity"
   },
   {
     name: "Yin Yang Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues. It fosters relaxation, deep stretching, and a meditative state, balancing more vigorous practices.",
-    image: "public/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
+    image: "/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
     benefits: "Deep tissue release, improved flexibility, stress reduction",
     focus: "Fascia release and joint mobility"
   },
   {
     name: "Insight Yoga",
     description: "Blends physical postures with mindfulness and meditation to cultivate inner awareness. It encourages a reflective practice that connects the body and mind for personal growth.",
-    image: "public/lovable-uploads/4f588304-d68a-4106-bd96-9fbbc14e7fcd.png",
+    image: "/lovable-uploads/4f588304-d68a-4106-bd96-9fbbc14e7fcd.png",
     benefits: "Mindfulness, emotional balance, inner awareness",
     focus: "Mind-body connection and self-discovery"
   },
   {
     name: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support. It offers a gentle, accessible practice for those with limited mobility or beginners seeking low-impact exercise.",
-    image: "public/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
+    image: "/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
     benefits: "Accessibility, joint mobility, gentle stretching",
     focus: "Accessibility and adaptability for all bodies"
   },
   {
     name: "Aerial Yoga",
     description: "Uses a suspended hammock to support and deepen traditional yoga postures in the air. It offers a unique perspective on balance, flexibility, and core strength by reducing the impact of gravity.",
-    image: "public/lovable-uploads/d281e111-53b7-4c9f-bf5d-50e2b0a9c31e.png",
+    image: "/lovable-uploads/d281e111-53b7-4c9f-bf5d-50e2b0a9c31e.png",
     benefits: "Spinal decompression, core strength, playful practice",
     focus: "Decompression and core engagement"
   },
   {
     name: "Acro Yoga",
     description: "Combines yoga, acrobatics, and Thai massage in a partner-based practice. It emphasizes trust, collaboration, and physical challenge through dynamic, playful poses.",
-    image: "public/lovable-uploads/518f4a56-4c32-4540-9eb4-e2b3c9414e32.png",
+    image: "/lovable-uploads/518f4a56-4c32-4540-9eb4-e2b3c9414e32.png",
     benefits: "Trust building, partner connection, playful expression",
     focus: "Cooperation and balance with partners"
   },
   {
     name: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day. It energizes the body, improves circulation, and serves as a warm-up to prepare for deeper stretches.",
-    image: "public/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
+    image: "/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
     benefits: "Morning energizing, full-body warm up, breath synchronization",
     focus: "Full-body activation and circulation"
   }
