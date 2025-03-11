@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -267,7 +266,7 @@ const featuredYogaTypes = [
   {
     name: "Sivananda Yoga",
     description: "A classical approach integrating twelve basic poses, breathing exercises, relaxation, and meditation. It promotes holistic well-being by harmonizing the body, mind, and spirit through disciplined practice.",
-    image: "/lovable-uploads/3e67e577-ff68-44b8-ae3d-9219a7915c70.png",
+    image: "/lovable-uploads/f27a9710-7e58-4b3a-98a5-e9fab5ded5bd.png",
     benefits: "Holistic wellness, spiritual growth, stress relief",
     focus: "Overall wellness and balanced development"
   },
@@ -486,3 +485,4 @@ const allYogaTypes = [
 ];
 
 export default YogaTypes;
+
