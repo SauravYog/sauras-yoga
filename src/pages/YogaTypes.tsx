@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -192,7 +193,7 @@ const featuredYogaTypes = [
   {
     name: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation. It lays the foundation for many modern styles by emphasizing balance, alignment, and mindfulness.",
-    image: "public/lovable-uploads/de0bf1a6-8272-4d24-a5ff-e05256787c42.png",
+    image: "public/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
     benefits: "Improved flexibility, stress reduction, better posture"
   },
   {
