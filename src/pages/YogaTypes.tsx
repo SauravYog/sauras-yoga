@@ -234,7 +234,7 @@ const featuredYogaTypes = [
   {
     name: "Insight Yoga",
     description: "Blends physical postures with mindfulness and meditation to cultivate inner awareness. It encourages a reflective practice that connects the body and mind for personal growth.",
-    image: "public/lovable-uploads/aaf3066b-fa49-433f-b14a-14693bb399f0.png",
+    image: "public/lovable-uploads/4f588304-d68a-4106-bd96-9fbbc14e7fcd.png",
     benefits: "Mindfulness, emotional balance, inner awareness"
   },
   {
