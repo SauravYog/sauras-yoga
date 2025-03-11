@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -229,7 +230,7 @@ const Index = () => {
             >
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-yoga-primary rounded-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                src="/lovable-uploads/8f5891a7-dda1-48ef-b157-ba056ee39e07.png" 
                 alt="Kumar Saurav - Yoga Instructor" 
                 className="w-full rounded-lg shadow-lg relative z-10"
               />
