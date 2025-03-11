@@ -216,7 +216,7 @@ const featuredYogaTypes = [
   {
     name: "Sivananda Yoga",
     description: "A classical approach integrating twelve basic poses, breathing exercises, relaxation, and meditation. It promotes holistic well-being by harmonizing the body, mind, and spirit through disciplined practice.",
-    image: "public/lovable-uploads/64696d7d-e35e-46df-8625-af33b19fcaea.png",
+    image: "public/lovable-uploads/3e67e577-ff68-44b8-ae3d-9219a7915c70.png",
     benefits: "Holistic wellness, spiritual growth, stress relief"
   },
   {
