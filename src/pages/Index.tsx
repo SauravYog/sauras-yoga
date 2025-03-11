@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -314,37 +313,37 @@ const featuredYogaTypes = [
   {
     title: "Hatha Yoga",
     description: "Traditional yoga focusing on physical postures, breathing, and meditation for balanced mind and body.",
-    image: "https://images.unsplash.com/photo-1573590330099-d6c7355ec595?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/33b074a6-e7ed-4a28-b45c-2c8e7a00ae94.png",
     icon: Sun
   },
   {
     title: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order.",
-    image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
     icon: Wind
   },
   {
     title: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences.",
-    image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
     icon: Heart
   },
   {
     title: "Yin Yoga",
     description: "A slow-paced practice with long-held, passive poses that target deep connective tissues.",
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/90268098-0d34-4398-82e0-5e2d85fd20a8.png",
     icon: Moon
   },
   {
     title: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day and energize the body.",
-    image: "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
     icon: Flower
   },
   {
     title: "Chair Yoga",
     description: "Adapts traditional yoga poses to be performed while seated or using a chair for support.",
-    image: "https://images.unsplash.com/photo-1620122830785-a18b43585b44?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "public/lovable-uploads/2bf356ec-0d3c-48bf-8cd7-0d0be5b7a6f7.png",
     icon: Flower
   }
 ];
