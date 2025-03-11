@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -222,7 +223,7 @@ const featuredYogaTypes = [
   {
     name: "Iyengar Yoga",
     description: "Emphasizes precise alignment and the use of props (such as blocks and straps) to support the body in each pose. It develops strength and flexibility while ensuring a safe practice that refines body awareness.",
-    image: "public/lovable-uploads/f0e56e39-c15f-46dc-a500-3758ea1b1bd1.png",
+    image: "public/lovable-uploads/110f5166-417b-4610-8fad-4432af890844.png",
     benefits: "Precise alignment, therapeutic applications, injury prevention"
   },
   {
