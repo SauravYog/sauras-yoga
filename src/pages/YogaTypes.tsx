@@ -199,7 +199,7 @@ const featuredYogaTypes = [
   {
     name: "Ashtanga Yoga",
     description: "A dynamic, physically demanding practice with a set sequence of poses performed in a specific order. It synchronizes breath with movement to build strength, flexibility, and stamina.",
-    image: "public/lovable-uploads/a3b17b67-8fc0-4ef2-9f68-5632c20c981d.png",
+    image: "public/lovable-uploads/f0384976-29c6-44f8-b895-f90adc7bdb43.png",
     benefits: "Increased strength, improved focus, detoxification"
   },
   {
