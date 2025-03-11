@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -211,7 +210,7 @@ const featuredYogaTypes = [
   {
     name: "Vinyasa Yoga",
     description: "A fluid, 'flow' style that links movement and breath in creative, ever-changing sequences. It encourages mindfulness, flexibility, and a balanced, rhythmic practice that adapts to each session.",
-    image: "public/lovable-uploads/9aa8b024-53a2-4e1e-aee0-5a0d62fa46d5.png",
+    image: "public/lovable-uploads/c3959543-1515-4109-8799-80d20050fe07.png",
     benefits: "Cardiovascular health, meditative focus, adaptability"
   },
   {
