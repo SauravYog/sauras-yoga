@@ -205,7 +205,7 @@ const featuredYogaTypes = [
   {
     name: "Power Yoga",
     description: "A vigorous, fitness-oriented approach derived from Ashtanga that challenges both the body and mind. This style focuses on building endurance, strength, and overall body conditioning through dynamic flows.",
-    image: "public/lovable-uploads/49c926fe-cecc-4f4f-a29a-16eea1500bd7.png",
+    image: "public/lovable-uploads/b78cac0a-288a-45e6-a58e-efd0c2d85589.png",
     benefits: "Strength building, calorie burning, mental fortitude"
   },
   {
