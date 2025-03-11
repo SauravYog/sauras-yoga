@@ -259,7 +259,7 @@ const featuredYogaTypes = [
   {
     name: "Sun Salutation",
     description: "A flowing sequence of poses traditionally performed at sunrise to greet the day. It energizes the body, improves circulation, and serves as a warm-up to prepare for deeper stretches.",
-    image: "public/lovable-uploads/2d257bb8-89da-46bd-b394-60e8bcc5778d.png",
+    image: "public/lovable-uploads/14e14272-324a-4244-839d-65aad421e36c.png",
     benefits: "Morning energizing, full-body warm up, breath synchronization"
   }
 ];
