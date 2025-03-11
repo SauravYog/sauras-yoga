@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -252,7 +253,7 @@ const featuredYogaTypes = [
   {
     name: "Acro Yoga",
     description: "Combines yoga, acrobatics, and Thai massage in a partner-based practice. It emphasizes trust, collaboration, and physical challenge through dynamic, playful poses.",
-    image: "public/lovable-uploads/bb299f19-eb29-4104-9f40-d8a0dd88d7ba.png",
+    image: "public/lovable-uploads/518f4a56-4c32-4540-9eb4-e2b3c9414e32.png",
     benefits: "Trust building, partner connection, playful expression"
   },
   {
