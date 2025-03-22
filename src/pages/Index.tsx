@@ -20,8 +20,8 @@ const Index = () => {
           }}
         ></div>
         <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="grid grid-cols-1 gap-12 items-center">
+            <div className="space-y-6 max-w-3xl mx-auto">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="text-lg text-gray-600 max-w-xl"
+                className="text-lg text-gray-600 max-w-xl mx-auto"
               >
                 Join us at SauravYog studio, where we offer over 40 different styles of yoga practices to help you find balance, strength, and tranquility.
               </motion.p>
@@ -63,7 +63,7 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="flex flex-col sm:flex-row gap-4"
+                className="flex flex-col sm:flex-row gap-4 justify-center"
               >
                 <Link 
                   to="/schedule" 
@@ -80,22 +80,6 @@ const Index = () => {
                 </Link>
               </motion.div>
             </div>
-            
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="relative hidden lg:block"
-            >
-              <div className="absolute -top-16 -left-16 w-32 h-32 bg-purple-100 rounded-full opacity-60 animate-float"></div>
-              <div className="absolute -bottom-16 -right-16 w-32 h-32 bg-purple-100 rounded-full opacity-60 animate-float" style={{ animationDelay: "1s" }}></div>
-              <img 
-                src="https://images.unsplash.com/photo-1604781618900-433d54902e19?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3" 
-                alt="Yoga pose" 
-                className="w-full h-auto rounded-lg shadow-2xl object-cover"
-                style={{ maxHeight: "80vh" }}
-              />
-            </motion.div>
           </div>
         </div>
       </section>
