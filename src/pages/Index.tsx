@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center hero-gradient">
+      <section className="relative w-full min-h-screen flex items-center hero-gradient">
         <div 
           className="absolute inset-0 opacity-15 z-0"
           style={{ 
@@ -19,7 +19,7 @@ const Index = () => {
             backgroundRepeat: "no-repeat"
           }}
         ></div>
-        <div className="container mx-auto px-4 md:px-6 pt-24 z-10">
+        <div className="responsive-container w-full mx-auto z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <motion.div
@@ -101,8 +101,8 @@ const Index = () => {
       </section>
       
       {/* Featured Yoga Types */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="py-20 bg-white w-full">
+        <div className="responsive-container mx-auto">
           <SectionHeader 
             title="Featured Yoga Types"
             subtitle="Explore some of our most popular yoga practices that bring balance to mind, body, and spirit."
@@ -155,8 +155,8 @@ const Index = () => {
       </section>
       
       {/* Schedule Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="py-20 bg-gray-50 w-full">
+        <div className="responsive-container mx-auto">
           <SectionHeader 
             title="Class Schedule"
             subtitle="Join us for daily yoga sessions designed to fit your busy schedule."
@@ -234,8 +234,8 @@ const Index = () => {
       </section>
       
       {/* About Instructor */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="py-20 bg-white w-full">
+        <div className="responsive-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
@@ -289,8 +289,8 @@ const Index = () => {
       </section>
       
       {/* Call to Action */}
-      <section className="py-20 bg-purple-50">
-        <div className="container mx-auto px-4 md:px-6 text-center">
+      <section className="py-20 bg-purple-50 w-full">
+        <div className="responsive-container mx-auto text-center">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
