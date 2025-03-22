@@ -62,8 +62,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail size={18} className="mr-2 text-yoga-primary flex-shrink-0 mt-1" />
-                <a href="mailto:amrutha.gandhi@gmail.com" className="text-sm text-gray-600 hover:text-yoga-primary transition-colors">
-                  amrutha.gandhi@gmail.com
+                <a href="mailto:sauravyogchennai@gmail.com" className="text-sm text-gray-600 hover:text-yoga-primary transition-colors">
+                  sauravyogchennai@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
@@ -74,9 +74,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 text-yoga-primary flex-shrink-0 mt-1" />
-                <span className="text-sm text-gray-600">
-                  SauravYog Studio, Your Location, City, State, India
-                </span>
+                <a 
+                  href="https://maps.google.com/?q=13.085420,80.215347" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-sm text-gray-600 hover:text-yoga-primary transition-colors"
+                >
+                  Old No. W Block 97 New No. W Block 2, First floor, 3rd Main Road, Anna Nagar. CHENNAI 600 040. Near- tower club
+                </a>
               </li>
             </ul>
           </div>

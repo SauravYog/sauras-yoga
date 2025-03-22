@@ -25,20 +25,31 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
+    // Create mailto link with form data
+    const subject = `Contact from ${formData.name}`;
+    const body = `
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+
+Message:
+${formData.message}
+    `;
+    
+    // Encode the mailto link
+    const mailtoLink = `mailto:sauravyogchennai@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    // Open the user's email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
     setTimeout(() => {
       toast({
-        title: "Message Sent!",
-        description: "We'll get back to you as soon as possible.",
-      });
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
+        title: "Email Client Opened",
+        description: "Please send the email from your mail client to complete your message.",
       });
       setIsSubmitting(false);
-    }, 1500);
+    }, 500);
   };
 
   return (
@@ -120,11 +131,11 @@ const Contact = () => {
                 className="w-full bg-purple-600 text-white py-3 px-4 rounded-md hover:bg-purple-700 transition-colors flex items-center justify-center"
               >
                 {isSubmitting ? (
-                  <span>Sending...</span>
+                  <span>Opening Email Client...</span>
                 ) : (
                   <>
                     <Send size={18} className="mr-2" />
-                    <span>Send Message</span>
+                    <span>Send Email</span>
                   </>
                 )}
               </button>
@@ -146,8 +157,8 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-purple-600 mr-4 mt-1" />
                   <div>
                     <h4 className="text-lg font-medium">Email</h4>
-                    <a href="mailto:amrutha.gandhi@gmail.com" className="text-gray-700 hover:text-purple-600 transition-colors">
-                      amrutha.gandhi@gmail.com
+                    <a href="mailto:sauravyogchennai@gmail.com" className="text-gray-700 hover:text-purple-600 transition-colors">
+                      sauravyogchennai@gmail.com
                     </a>
                   </div>
                 </div>
@@ -166,12 +177,19 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-purple-600 mr-4 mt-1" />
                   <div>
                     <h4 className="text-lg font-medium">Studio Address</h4>
-                    <address className="text-gray-700 not-italic">
-                      SauravYog Studio<br />
-                      123 Yoga Street<br />
-                      Chennai, Tamil Nadu 600001<br />
-                      India
-                    </address>
+                    <a 
+                      href="https://maps.google.com/?q=13.085420,80.215347" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-gray-700 hover:text-purple-600 transition-colors"
+                    >
+                      <address className="not-italic">
+                        Old No. W Block 97 New No. W Block 2,<br />
+                        First floor, 3rd Main Road,<br />
+                        Anna Nagar. CHENNAI 600 040.<br />
+                        Near- tower club
+                      </address>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -9,14 +9,14 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex items-center hero-gradient">
+      <section className="relative w-full min-h-screen flex items-center">
         <div 
-          className="absolute inset-0 opacity-15 z-0"
+          className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/7e48d77a-9f36-422c-bbf0-acdbddc75526.png')",
-            backgroundSize: "contain",
+            backgroundImage: "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop')",
+            backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
+            filter: "brightness(0.5)"
           }}
         ></div>
         <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
@@ -45,7 +45,7 @@ const Index = () => {
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight">
                   Discover Your Inner Peace Through <span className="text-yoga-primary">Yoga</span>
                 </h1>
               </motion.div>
@@ -54,7 +54,7 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="text-lg text-gray-600 max-w-xl mx-auto"
+                className="text-lg text-gray-200 max-w-xl mx-auto"
               >
                 Join us at SauravYog studio, where we offer over 40 different styles of yoga practices to help you find balance, strength, and tranquility.
               </motion.p>
@@ -244,7 +244,7 @@ const Index = () => {
               className="space-y-6"
             >
               <span className="inline-block px-3 py-1 bg-purple-100 text-yoga-primary rounded-full text-sm font-medium">
-                Meet Your Instructor
+                Meet the Founder
               </span>
               
               <h2 className="text-3xl md:text-4xl font-serif font-semibold text-gray-900">Kumar Saurav</h2>

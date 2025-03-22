@@ -10,7 +10,7 @@ const About = () => {
       <div className="container mx-auto px-4 py-20">
         <SectionHeader 
           title="About Our Studio" 
-          subtitle="Learn more about SauravYog and our dedicated instructor"
+          subtitle="Learn more about SauravYog and our founder"
         />
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
