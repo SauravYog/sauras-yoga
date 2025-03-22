@@ -38,7 +38,7 @@ const Index = () => {
                 transition={{ duration: 0.8, delay: 0.1 }}
                 className="relative"
               >
-                <div className="absolute -z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-15">
+                <div className="absolute -z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 opacity-15">
                   <img 
                     src="/lovable-uploads/0ce7dc04-b795-4808-978d-bdaa4afca671.png" 
                     alt="Yoga meditation symbol" 
