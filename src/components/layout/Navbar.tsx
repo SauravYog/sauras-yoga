@@ -47,8 +47,15 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-serif font-bold text-gray-900 hover:text-yoga-primary transition-colors">
-              SauravYog
+            <Link to="/" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
+              <img 
+                src="/lovable-uploads/ac05c204-b98c-4555-8de6-6d3c12b41b0c.png" 
+                alt="SauravYog Logo" 
+                className="h-10 w-auto"
+              />
+              <span className="text-2xl font-serif font-bold text-gray-900 hover:text-yoga-primary transition-colors">
+                SauravYog
+              </span>
             </Link>
           </div>
           
