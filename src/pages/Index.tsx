@@ -19,7 +19,7 @@ const Index = () => {
             backgroundRepeat: "no-repeat"
           }}
         ></div>
-        <div className="responsive-container w-full mx-auto z-10">
+        <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <motion.div
@@ -102,7 +102,7 @@ const Index = () => {
       
       {/* Featured Yoga Types */}
       <section className="py-20 bg-white w-full">
-        <div className="responsive-container mx-auto">
+        <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader 
             title="Featured Yoga Types"
             subtitle="Explore some of our most popular yoga practices that bring balance to mind, body, and spirit."
@@ -156,7 +156,7 @@ const Index = () => {
       
       {/* Schedule Section */}
       <section className="py-20 bg-gray-50 w-full">
-        <div className="responsive-container mx-auto">
+        <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader 
             title="Class Schedule"
             subtitle="Join us for daily yoga sessions designed to fit your busy schedule."
@@ -235,7 +235,7 @@ const Index = () => {
       
       {/* About Instructor */}
       <section className="py-20 bg-white w-full">
-        <div className="responsive-container mx-auto">
+        <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
@@ -290,7 +290,7 @@ const Index = () => {
       
       {/* Call to Action */}
       <section className="py-20 bg-purple-50 w-full">
-        <div className="responsive-container mx-auto text-center">
+        <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

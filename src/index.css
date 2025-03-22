@@ -123,7 +123,8 @@
 
   .hero-gradient {
     @apply bg-gradient-to-r from-purple-50 via-white to-purple-50;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
   }
 
   .yoga-card {
@@ -195,25 +196,28 @@
 /* Responsive container */
 .responsive-container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 @media (min-width: 640px) {
   .responsive-container {
+    max-width: 100%;
     padding: 0 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
   .responsive-container {
+    max-width: 100%;
     padding: 0 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .responsive-container {
+    max-width: 100%;
     padding: 0 2.5rem;
   }
 }
