@@ -2,8 +2,11 @@
 /* Reset the max-width to ensure full-width layout */
 #root {
   width: 100%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .logo {
