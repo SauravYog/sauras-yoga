@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -14,7 +13,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 opacity-15 z-0"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/823f54a7-1bfa-4512-b8a1-d51955b03b6e.png')",
+            backgroundImage: "url('/lovable-uploads/7e48d77a-9f36-422c-bbf0-acdbddc75526.png')",
             backgroundSize: "contain",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
