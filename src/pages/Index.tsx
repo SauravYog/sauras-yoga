@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -13,7 +14,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 opacity-15 z-0"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/6cba00c0-9b43-42be-a184-7ff2c5b53449.png')",
+            backgroundImage: "url('/lovable-uploads/823f54a7-1bfa-4512-b8a1-d51955b03b6e.png')",
             backgroundSize: "contain",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
@@ -357,4 +358,3 @@ const featuredYogaTypes = [
 ];
 
 export default Index;
-
