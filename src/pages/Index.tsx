@@ -32,14 +32,23 @@ const Index = () => {
                 </span>
               </motion.div>
               
-              <motion.h1 
+              <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
-                className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight"
+                className="relative"
               >
-                Discover Your Inner Peace Through <span className="text-yoga-primary">Yoga</span>
-              </motion.h1>
+                <div className="absolute -z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 opacity-15">
+                  <img 
+                    src="/lovable-uploads/0ce7dc04-b795-4808-978d-bdaa4afca671.png" 
+                    alt="Yoga meditation symbol" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight">
+                  Discover Your Inner Peace Through <span className="text-yoga-primary">Yoga</span>
+                </h1>
+              </motion.div>
               
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
