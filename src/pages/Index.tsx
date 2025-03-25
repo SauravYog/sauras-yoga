@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -17,7 +16,7 @@ const Index = () => {
             backgroundImage: "url('/lovable-uploads/de1dd168-2250-41c1-bccb-75a8b1d90567.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            filter: "brightness(0.7)"
+            filter: "brightness(0.85)"
           }}
         ></div>
         <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
