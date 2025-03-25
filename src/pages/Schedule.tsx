@@ -103,6 +103,42 @@ const Schedule = () => {
             </div>
           </div>
           
+          {/* Private Classes Section */}
+          <div className="mt-12 bg-purple-50 rounded-lg shadow-md overflow-hidden">
+            <div className="p-6">
+              <h3 className="text-xl font-medium text-gray-900 mb-4 border-b pb-2">Private and Therapy Yoga Classes</h3>
+              <div className="space-y-4">
+                <p className="text-gray-700">
+                  <span className="font-medium">Time:</span> 11:00 AM - 4:00 PM
+                </p>
+                <p className="text-gray-700">
+                  <span className="font-medium">Focus Areas:</span> Back pain, joint pains, pre and post natal, etc.
+                </p>
+                <p className="text-gray-700">
+                  <span className="font-medium">Cost:</span> ₹1,500 per session
+                </p>
+                <p className="text-gray-700 font-medium">
+                  Prior booking required
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Workshop Information */}
+          <div className="mt-12 bg-gray-50 rounded-lg shadow-md overflow-hidden">
+            <div className="p-6">
+              <h3 className="text-xl font-medium text-gray-900 mb-4 border-b pb-2">Workshop Information</h3>
+              <div className="space-y-4">
+                <p className="text-gray-700">
+                  <span className="font-medium">Cost:</span> ₹1,000 per person for non-members
+                </p>
+                <p className="text-gray-700">
+                  <span className="font-medium">Member Price:</span> ₹500 per person for members
+                </p>
+              </div>
+            </div>
+          </div>
+          
           <div className="mt-12 text-center">
             <p className="text-gray-600 mb-4">
               All classes are taught by Kumar Saurav and are offered in various yoga styles.
@@ -177,7 +213,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Special workshops included</span>
+                    <span className="text-gray-700">Any class, any time</span>
                   </li>
                 </ul>
               </div>
@@ -207,7 +243,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Premium workshops included</span>
+                    <span className="text-gray-700">Any class, any time</span>
                   </li>
                 </ul>
               </div>
@@ -240,11 +276,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">All special workshops included</span>
-                  </li>
-                  <li className="flex items-start">
-                    <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Personalized practice plan</span>
+                    <span className="text-gray-700">Any class, any time</span>
                   </li>
                 </ul>
               </div>
@@ -294,8 +326,7 @@ const morningClasses = [
 const eveningClasses = [
   { time: "4:00 - 5:00 PM" },
   { time: "5:15 - 6:15 PM" },
-  { time: "6:30 - 7:30 PM" },
-  { time: "8:45 - 9:45 PM" }
+  { time: "6:30 - 7:30 PM" }
 ];
 
 // FAQ data
@@ -314,7 +345,7 @@ const faqs = [
   },
   {
     question: "Do I need to register in advance?",
-    answer: "No, you don't need to book a slot. You can come to any class during our operating hours."
+    answer: "No, you don't need to book a slot for regular classes. However, private and therapy sessions require prior booking."
   },
   {
     question: "What is the women-only class?",
