@@ -16,7 +16,7 @@ const Index = () => {
             backgroundImage: "url('/lovable-uploads/54a865c9-b0e2-4ecf-997a-9e6a9f7342c2.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            filter: "brightness(0.85)"
+            filter: "brightness(0.6)"
           }}
         ></div>
         <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
