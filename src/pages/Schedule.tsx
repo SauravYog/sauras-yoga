@@ -100,48 +100,12 @@ const Schedule = () => {
                   </motion.div>
                 </div>
               </div>
-              
-              <div className="mt-8">
-                <h3 className="text-lg font-medium text-gray-900 mb-4 border-b pb-2">Private & Therapy Classes</h3>
-                <div className="bg-purple-50 rounded-lg p-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-yoga-primary font-medium">11:00 AM - 4:00 PM</span>
-                    <span className="bg-purple-100 text-yoga-primary text-xs px-2 py-1 rounded-full">
-                      Booking Required
-                    </span>
-                  </div>
-                  <h4 className="text-gray-900 font-medium mt-2">Specialized Yoga Therapy</h4>
-                  <p className="text-gray-600 text-sm mt-1">
-                    For back pain, joint pains, pre and post natal care, and other therapeutic needs
-                  </p>
-                  <p className="text-yoga-primary font-medium text-sm mt-3">₹1,500 per session</p>
-                </div>
-              </div>
             </div>
           </div>
           
-          <div className="mt-12">
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-medium text-gray-900 mb-4 border-b pb-2">Workshop Information</h3>
-              <div className="space-y-2">
-                <p className="text-gray-700">We regularly host specialized yoga workshops.</p>
-                <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 mt-3">
-                  <div className="bg-gray-50 px-4 py-2 rounded">
-                    <span className="text-gray-700 font-medium">Members: </span>
-                    <span className="text-yoga-primary">₹500 per person</span>
-                  </div>
-                  <div className="bg-gray-50 px-4 py-2 rounded">
-                    <span className="text-gray-700 font-medium">Non-members: </span>
-                    <span className="text-yoga-primary">₹1,000 per person</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="mt-8 text-center">
+          <div className="mt-12 text-center">
             <p className="text-gray-600 mb-4">
-              All general classes are taught by Kumar Saurav and are offered in various yoga styles.
+              All classes are taught by Kumar Saurav and are offered in various yoga styles.
             </p>
             <p className="text-gray-600">
               Please arrive 10-15 minutes before class starts to set up your space.
@@ -213,7 +177,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Discounted workshop rates</span>
+                    <span className="text-gray-700">Special workshops included</span>
                   </li>
                 </ul>
               </div>
@@ -243,7 +207,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Discounted workshop rates</span>
+                    <span className="text-gray-700">Premium workshops included</span>
                   </li>
                 </ul>
               </div>
@@ -276,7 +240,11 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Discounted workshop rates</span>
+                    <span className="text-gray-700">All special workshops included</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
+                    <span className="text-gray-700">Personalized practice plan</span>
                   </li>
                 </ul>
               </div>
@@ -310,6 +278,7 @@ const Schedule = () => {
           </div>
         </div>
       </section>
+      
     </Layout>
   );
 };
@@ -325,7 +294,8 @@ const morningClasses = [
 const eveningClasses = [
   { time: "4:00 - 5:00 PM" },
   { time: "5:15 - 6:15 PM" },
-  { time: "6:30 - 7:30 PM" }
+  { time: "6:30 - 7:30 PM" },
+  { time: "8:45 - 9:45 PM" }
 ];
 
 // FAQ data
@@ -343,16 +313,16 @@ const faqs = [
     answer: "Yes, all our classes are open to beginners. Our instructors provide modifications for all levels."
   },
   {
-    question: "Do I need to register in advance for regular classes?",
-    answer: "No, you don't need to book a slot for regular classes. You can come to any class during our operating hours."
+    question: "Do I need to register in advance?",
+    answer: "No, you don't need to book a slot. You can come to any class during our operating hours."
   },
   {
     question: "What is the women-only class?",
     answer: "Our 10:00 AM class is reserved for women only, providing a comfortable space for female practitioners."
   },
   {
-    question: "Do I need to book for private therapy sessions?",
-    answer: "Yes, our specialized therapy sessions require advance booking. Please contact us to schedule your appointment."
+    question: "Can I try a class before signing up?",
+    answer: "Yes, we offer trial classes for new students. Please contact us to schedule your first visit."
   }
 ];
 
