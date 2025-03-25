@@ -52,8 +52,9 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm text-gray-600">
               <li>Monday - Saturday</li>
               <li>Morning: 6:15 AM - 11:00 AM</li>
-              <li>Evening: 4:00 PM - 9:45 PM</li>
+              <li>Evening: 4:00 PM - 7:30 PM</li>
               <li>Women's Only Class: 10:00 AM - 11:00 AM</li>
+              <li>Private Sessions: 11:00 AM - 4:00 PM</li>
             </ul>
           </div>
           

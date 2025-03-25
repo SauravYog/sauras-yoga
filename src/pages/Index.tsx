@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
@@ -13,10 +14,10 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop')",
+            backgroundImage: "url('/lovable-uploads/de1dd168-2250-41c1-bccb-75a8b1d90567.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            filter: "brightness(0.5)"
+            filter: "brightness(0.7)"
           }}
         ></div>
         <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
@@ -196,12 +197,14 @@ const Index = () => {
                     <span className="text-gray-800">6:30 - 7:30 PM</span>
                     <span className="text-gray-600 text-sm">All Levels</span>
                   </li>
-                  <li className="flex justify-between items-center border-b border-gray-100 pb-2">
-                    <span className="text-gray-800">8:45 - 9:45 PM</span>
-                    <span className="text-gray-600 text-sm">All Levels</span>
-                  </li>
                 </ul>
               </div>
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 rounded-lg">
+              <h4 className="text-yoga-primary font-medium mb-2">Private & Therapy Classes</h4>
+              <p className="text-gray-700 text-sm">11:00 AM - 4:00 PM • ₹1,500 per session • Booking required</p>
+              <p className="text-gray-600 text-xs mt-1">For back pain, joint pain, pre/post natal, and more</p>
             </div>
             
             <div className="mt-8 text-center">
