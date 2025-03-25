@@ -100,25 +100,6 @@ const Schedule = () => {
                   </motion.div>
                 </div>
               </div>
-
-              <div className="mt-10">
-                <h3 className="text-lg font-medium text-gray-900 mb-4 border-b pb-2">Specialized Classes</h3>
-                <div className="bg-gray-50 rounded-lg p-4 hover:shadow-sm transition-shadow">
-                  <div className="flex justify-between items-start flex-wrap">
-                    <div>
-                      <span className="text-yoga-primary font-medium">11:00 AM - 4:00 PM</span>
-                      <h4 className="text-gray-900 font-medium mt-2">Private & Therapy Yoga Classes</h4>
-                      <p className="text-gray-600 mt-1">For back pain, joint pains, pre and post natal, etc.</p>
-                    </div>
-                    <div className="mt-2 md:mt-0">
-                      <span className="bg-purple-100 text-yoga-primary px-3 py-1.5 rounded-full text-sm font-medium">
-                        ₹1,500 per session
-                      </span>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 text-sm mt-3 italic">Booking required in advance</p>
-                </div>
-              </div>
             </div>
           </div>
           
@@ -196,7 +177,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Workshop discount (₹500/person)</span>
+                    <span className="text-gray-700">Special workshops included</span>
                   </li>
                 </ul>
               </div>
@@ -226,7 +207,7 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Workshop discount (₹500/person)</span>
+                    <span className="text-gray-700">Premium workshops included</span>
                   </li>
                 </ul>
               </div>
@@ -259,24 +240,15 @@ const Schedule = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
-                    <span className="text-gray-700">Workshop discount (₹500/person)</span>
+                    <span className="text-gray-700">All special workshops included</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight size={18} className="text-yoga-primary mt-1 mr-2" />
+                    <span className="text-gray-700">Personalized practice plan</span>
                   </li>
                 </ul>
               </div>
             </motion.div>
-          </div>
-
-          {/* Workshop Information */}
-          <div className="mt-12 max-w-xl mx-auto bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-medium text-gray-900 mb-4 text-center">Workshop Pricing</h3>
-            <div className="flex justify-between items-center border-b border-gray-100 pb-3 mb-3">
-              <span className="text-gray-800">Non-members</span>
-              <span className="font-medium text-yoga-primary">₹1,000 per person</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-gray-800">Members</span>
-              <span className="font-medium text-yoga-primary">₹500 per person</span>
-            </div>
           </div>
         </div>
       </section>
@@ -322,7 +294,8 @@ const morningClasses = [
 const eveningClasses = [
   { time: "4:00 - 5:00 PM" },
   { time: "5:15 - 6:15 PM" },
-  { time: "6:30 - 7:30 PM" }
+  { time: "6:30 - 7:30 PM" },
+  { time: "8:45 - 9:45 PM" }
 ];
 
 // FAQ data
@@ -341,7 +314,7 @@ const faqs = [
   },
   {
     question: "Do I need to register in advance?",
-    answer: "No, you don't need to book a slot for regular classes. You can come to any class during our operating hours. However, private and therapy classes require advance booking."
+    answer: "No, you don't need to book a slot. You can come to any class during our operating hours."
   },
   {
     question: "What is the women-only class?",
