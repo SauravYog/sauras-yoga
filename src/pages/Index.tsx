@@ -13,7 +13,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/de1dd168-2250-41c1-bccb-75a8b1d90567.png')",
+            backgroundImage: "url('/lovable-uploads/54a865c9-b0e2-4ecf-997a-9e6a9f7342c2.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             filter: "brightness(0.85)"
