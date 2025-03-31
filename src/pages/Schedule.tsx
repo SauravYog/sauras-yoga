@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -119,6 +118,32 @@ const Schedule = () => {
                 </p>
                 <p className="text-gray-700 font-medium">
                   Prior booking required
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Space Rental Section */}
+          <div className="mt-12 bg-blue-50 rounded-lg shadow-md overflow-hidden">
+            <div className="p-6">
+              <h3 className="text-xl font-medium text-gray-900 mb-4 border-b pb-2">Space Rental</h3>
+              <div className="space-y-4">
+                <p className="text-gray-700">
+                  <span className="font-medium">Availability:</span>
+                </p>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1">
+                  <li>Monday to Saturday: 11:00 AM - 4:00 PM</li>
+                  <li>Sunday: 8:00 AM - 9:00 PM</li>
+                </ul>
+                <p className="text-gray-700">
+                  <span className="font-medium">Pricing:</span>
+                </p>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1">
+                  <li>₹1,500 for the first hour</li>
+                  <li>₹1,200 per hour thereafter</li>
+                </ul>
+                <p className="text-gray-700 font-medium">
+                  Subject to availability. Prior booking required.
                 </p>
               </div>
             </div>
