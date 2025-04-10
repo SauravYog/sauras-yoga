@@ -251,13 +251,10 @@ const Index = () => {
               
               <div className="text-gray-600 space-y-4">
                 <p>
-                  Kumar Saurav lives by a mantra "Never give up" in his life. Saurav completed his B.A. in yogic science from Patanjali University and has been practising yoga for 9 years.
+                  Kumar Saurav, founder and lead instructor, embodies the mantra "Never give up." With over 9 years of dedicated yoga practice and expertise in Ashtanga and Hatha yoga, Saurav has inspired more than 15,000 students globally. He is also the author of 108: Yoga Guide, a comprehensive handbook for practitioners at all levels.
                 </p>
                 <p>
-                  His expertise lies in Ashtanga and Hatha yoga. He has taught more than 500 members and aspires to become an advanced level yogi. His advice to beginners is to practise yoga with discipline and be consistent.
-                </p>
-                <p>
-                  Apart from individual specialities, Saurav is proficient in 25 forms of yoga and has completed a detailed 200-hour practical training from DIVA that includes the classical styles of yoga, yoga with different props, and many more.
+                  At our studio, Saurav invites you to begin your yoga journey with discipline, consistency, and passion—transforming body, mind, and spirit.
                 </p>
               </div>
               

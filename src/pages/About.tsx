@@ -34,23 +34,37 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold mb-4">Meet Kumar Saurav</h3>
-            <p className="text-gray-700 mb-4">
-              Kumar Saurav lives by a mantra "Never give up" in his life. Saurav completed his B.A. in yogic science from Patanjali University and has been practising yoga for 9 years.
-            </p>
-            <p className="text-gray-700 mb-4">
-              His expertise lies in Ashtanga and Hatha yoga. He has taught more than 500 members and aspires to become an advanced level yogi. His advice to beginners is to practise yoga with discipline and be consistent.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Saurav is the perfect coach for you if your goals are weight loss and strength building. Apart from individual specialities, he is proficient in 25 forms of yoga and has completed a detailed 200-hour practical training from DIVA that includes the classical styles of yoga, yoga with different props, and many more.
-            </p>
+            <div className="text-gray-700 space-y-4">
+              <p>
+                Kumar Saurav believes in living by one powerful mantra: "Never give up." Guided by this philosophy, he has dedicated his life to the transformative practice of yoga, sharing his passion and wisdom with thousands of students.
+              </p>
+              <p>
+                Saurav holds a Bachelor's Degree in Yogic Science from Patanjali University (2015-2018) and a Master's Degree in Yoga Therapy from Tirupati Central College. He has also completed an extensive 200-hour Yoga Teacher Training Course (TTC) in traditional Ashtanga Yoga from Mysore, the global hub of yoga.
+              </p>
+              <p>
+                With over 9 years of practice and teaching experience, Saurav specializes in both Ashtanga and Hatha yoga, having personally guided more than 5,000 students in Chennai through offline sessions and an additional 10,000 students worldwide through online classes.
+              </p>
+              <p>
+                In addition to teaching, Saurav is also an author. His published work, "108: Yoga Guide," serves as a comprehensive resource for yoga practitioners of all levels. He is proficient in 25 different forms of yoga, including classical styles and innovative practices using various props.
+              </p>
+              <p>
+                Saurav's philosophy for beginners is simple yet profound:
+              </p>
+              <p className="italic">
+                "Practise yoga with discipline and consistency. The journey itself is transformative."
+              </p>
+              <p>
+                His vision is to continuously grow as an advanced yogi, spreading awareness and deepening people's connection with yoga. Whether you're new to yoga or an experienced practitioner, Kumar Saurav welcomes you to experience the powerful harmony of body, mind, and spirit at his studio.
+              </p>
+            </div>
             <div className="mt-6">
               <h4 className="text-xl font-medium mb-2">Specializations:</h4>
               <ul className="list-disc list-inside text-gray-700 space-y-1">
                 <li>Ashtanga Yoga</li>
                 <li>Hatha Yoga</li>
-                <li>Weight Loss Programs</li>
-                <li>Strength Building</li>
+                <li>Yoga Therapy</li>
                 <li>25+ Yoga Forms</li>
+                <li>Author of "108: Yoga Guide"</li>
               </ul>
             </div>
           </motion.div>
