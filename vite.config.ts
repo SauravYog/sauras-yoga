@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/sauras-yoga/',  // <<< Add this line
+  base: '/',  // <<< Add this line
   
   server: {
     host: "::",
